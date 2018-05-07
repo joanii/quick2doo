@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'quick2doo' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for quick2doo
+   pod 'RealmSwift’
+   pod 'RxSwift'
+   pod 'RxCocoa'
+   pod 'RxDataSources'
+   pod 'RxRealm', '0.6'
+   pod 'Action', '~> 3.0'
+end
